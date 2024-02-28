@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 800px;
+  height: 70px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  margin: 0 0 24px 0;
+
+  border-style: solid;
+  border-color: #62647f;
+  border-width: 1px;
+
+  .todo {
+    width: 615px;
+  }
+}
+
+input[id='check_btn'] + label {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: #ecedf6;
+  border-radius: 10px;
+  margin: 0 22px 0 12px;
+}
+
+input[id='check_btn']:checked + label {
+  background-image: url('../../assets/images/checkImg.png');
+}
+
+input[id='check_btn'] {
+  display: none;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 0 10px 0 0;
+}
