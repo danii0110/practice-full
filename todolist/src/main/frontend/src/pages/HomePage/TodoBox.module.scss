@@ -13,10 +13,9 @@
   border-style: solid;
   border-color: #62647f;
   border-width: 1px;
-
-  .todo {
-    width: 615px;
-  }
+}
+.todo {
+  width: 615px;
 }
 
 input[id='check_btn'] + label {
@@ -31,7 +30,7 @@ input[id='check_btn'] + label {
 }
 
 input[id='check_btn']:checked + label {
-  background-image: url('../../assets/images/checkImg.png');
+  background-image: url('../../assets/images/checkBtn.svg');
 }
 
 input[id='check_btn'] {
@@ -43,4 +42,6 @@ button {
   height: 40px;
   border-radius: 10px;
   margin: 0 10px 0 0;
+  background: no-repeat;
+  border: none;
 }

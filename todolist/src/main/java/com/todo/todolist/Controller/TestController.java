@@ -1,4 +1,4 @@
-package com.todo.todolist;
+package com.todo.todolist.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,24 +1,19 @@
-import style from './HomePage.module.scss';
-import TodoBox from '../../components/todoBox/todoBox';
-import plusImg from '../../assets/images/plusImg.png';
+import styles from './HomePage.module.scss';
+import TodoBox from './TodoBox';
+import InputForm from './InputForm';
 
 function HomePage() {
   return (
-    <div className={style.container}>
-      <div className={style.header}>TODO LIST</div>
-      <div className={style.main}>
-        <div className={style.inputArea}>
-          <input type='text' placeholder='What needs to be done?'></input>
-          <button>
-            <img src={plusImg} alt='plus-img' />
-          </button>
+    <div className={styles.container}>
+      <div className={styles.header}>TODO LIST</div>
+      <div className={styles.main}>
+        <div className={styles.mainArea}>
+          <TodoBox todo='HTML' />
+          <TodoBox todo='CSS' />
+          <TodoBox todo='JAVASCRIPT' />
+          <TodoBox todo='SPRING' />
         </div>
-        <div className={style.mainArea}>
-          <TodoBox />
-          <TodoBox />
-          <TodoBox />
-          <TodoBox />
-        </div>
+        <InputForm />
       </div>
     </div>
   );

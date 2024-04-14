@@ -8,68 +8,32 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.header {
+  font-size: 50px;
+  font-weight: 600;
+  color: #62647f;
+  margin: 40px 0 40px 0;
+}
 
-  .header {
-    font-size: 50px;
-    font-weight: 600;
-    color: #62647f;
-    margin: 80px 0 47px 0;
-  }
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 885px;
+}
+.mainArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
 
-  .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 885px;
+  width: 885px;
+  min-height: 567px;
+  border-radius: 20px;
+  background-color: #ecedf6;
 
-    .inputArea {
-      margin-bottom: 25px;
-      height: 80px;
-    }
-
-    .inputArea > input {
-      width: 770px;
-      height: 65px;
-      border-radius: 20px;
-      font-size: 30px;
-      padding-left: 25px;
-      background-color: #ecedf6;
-
-      border-style: solid;
-      border-color: #62647f;
-      border-width: 1px;
-      box-shadow: insets;
-    }
-    .inputArea > button {
-      width: 70px;
-      height: 70px;
-      border-radius: 20px;
-      background-color: #c3c5e6;
-      margin: 0 0 0 10px;
-
-      font-size: 60px;
-      color: white;
-
-      border-style: solid;
-      border-color: #62647f;
-      border-width: 1px;
-      // box-shadow: 0 0 0 1px #62647f inset;
-    }
-
-    .mainArea {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 40px;
-
-      width: 885px;
-      min-height: 567px;
-      border-radius: 20px;
-      background-color: #ecedf6;
-
-      border-style: solid;
-      border-color: #62647f;
-      border-width: 1px;
-    }
-  }
+  border-style: solid;
+  border-color: #62647f;
+  border-width: 1px;
 }
